@@ -1,10 +1,10 @@
 ﻿#注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错
+emp:
+  name: list
 spring:
   profiles:
-    active: list # 激活开发环境配置
+    active: dev # 激活开发环境配置
 ---
-emp:
-  name: zhangsan
 server:
   port: 8001
 mybatis:
